@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+
+body{
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+#header h1{
+	text-align: center;
+}
+
+.containerHead{
+	margin: 0;
+	display: inline;
+}
+
+.aboutContainer
+{
+	margin-left: 8em; 
+  max-width: 20%;
+	background-color: red;	
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20%;
+}

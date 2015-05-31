@@ -40,7 +40,7 @@
 								</li>		
 								<li>
 									Email Us Feedback: <!--Provide email address-->
-								</li>
+								</li
 								<li>
 									<?php echo $output;?>
 								</li>

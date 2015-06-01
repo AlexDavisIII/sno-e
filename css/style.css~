@@ -2,24 +2,53 @@
 
 body{
 	font-family: 'Raleway';
-	font-weight: 400;
+	font-weight: 400; 
+  background-color: #4554c1;
 }
 
+#header{
+	margin: 0 auto;
+	display: inline;
+}
+
+/*The header at the top of the page*/
 #header h1{
 	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	border: 2px solid white;
 }
 
+/*Header inside of the about container*/
 .containerHead{
 	margin: 0;
 	display: inline;
 }
 
+/*The Container used to encompace the three articles of the page*/
 .aboutContainer
 {
-	margin-left: 8em; 
+	padding: 1em;
+	margin-left: 8em;
   max-width: 20%;
-	background-color: red;	
+	background-color: #ffa500;	
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 20%;
+	margin-top: 10%;
+	box-shadow: -5px 5px 18px 10px white;
+	text-shadow: 1px 1px 1px white;
+	height: fit-content;
+}
+
+.aboutContainer ul li {
+	margin-top: 1em;
+}
+
+/*Execute media query so long as the max-width has not been met*/
+@media (max-width: 1254px){
+				.aboutContainer{
+						max-width: 90%;
+						display: inline-block;
+				
+				}
 }

@@ -6,6 +6,27 @@ body{
   background-color: #4554c1;
 }
 
+#welcomeSection > h1 {
+ text-align: center;	
+}
+
+#welcomeSection > nav {
+	text-align: center
+}
+
+#welcomeList li{
+	display: inline;
+	margin: 0 2em 0 auto;
+}
+
+#welcomeList li:hover {
+	border-bottom: 2px solid white;
+}
+
+#welcomeMessage {
+	text-align: center;	
+}
+
 #header{
 	margin: 0 auto;
 	display: inline;

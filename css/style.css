@@ -40,6 +40,11 @@ body{
 	border: 2px solid white;
 }
 
+body article h1::selection{
+	color: red;
+	background-color: white;
+}
+
 /*Header inside of the about container*/
 .containerHead{
 	margin: 0;
@@ -51,7 +56,7 @@ body{
 {
 	padding: 1em;
 	margin-left: 8em;
-  max-width: 20%;
+	 max-width: 20%;
 	background-color: #ffa500;	
 	display: inline-block;
 	vertical-align: top;
